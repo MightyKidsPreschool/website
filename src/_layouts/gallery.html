@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<!-- ====================================
+	——— PAGE TITLE SECTION
+	===================================== -->
+    <section class="pageTitleSection">
+            <div class="container">
+              <div class="pageTitleInfo">
+                <h2>Photo Gallery</h2>
+                <ol class="breadcrumb">
+                  <li><a href="/index.html">Home</a></li>
+                  <li class="active">Photo Gallery</li>
+                </ol>
+              </div>
+            </div>
+          </section>
+      
+          <!-- ====================================
+          ——— MAIN SECTION
+          ===================================== -->
+          <section class="mainContent full-width clearfix homeGallerySection">
+            <div class="container">
+              <!-- <div class="row">
+                <div class="col-xs-12">
+                  <div class="filter-container isotopeFilters">
+                    <ul class="list-inline filter">
+                      <li class="active"><a href="#" data-filter="*">View All</a></li>
+                      <li><a href="#" data-filter=".charity">Charity</a></li>
+                      <li><a href="#" data-filter=".nature">nature</a></li>
+                      <li><a href="#" data-filter=".children">children</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div> -->
+              <div class="row isotopeContainer" id="container">
+                {% for image in site.data.gallery %}
+                <div class="col-md-3 col-sm-6 col-xs-12 isotopeSelector charity">
+                  <article class="">
+                    <figure>
+                      <img src="/assets/img/gallery/{{ image.filename }}" alt="image" class="img-rounded">
+                      <div class="overlay-background">
+                        <div class="inner"></div>
+                      </div>
+                      <div class="overlay">
+                        <a data-fancybox="images" href="/assets/img/gallery/{{ image.filename }}">
+                          <i class="fa fa-search-plus" aria-hidden="true"></i>
+                        </a>
+                      </div>
+                    </figure>
+                  </article>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </section>
