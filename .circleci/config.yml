@@ -30,7 +30,7 @@ jobs:
       - save_cache:
           paths:
             - vendor/bundle
-          key: v1-2-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+          key: v1-3-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
 
       - save_cache:
           paths:
