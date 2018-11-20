@@ -75,8 +75,9 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v1-{{ arch }}-node-modules-{{ checksum "package-lock.json"}}
-            - v1-{{ arch }}-node-modules-
+            - v1-node-modules-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json"}}
+            - v1-node-modules-{{ arch }}-{{ .Branch }}-
+            - v1-node-modules-{{ arch }}
       - restore_cache:
           keys:
             - public-cache-
