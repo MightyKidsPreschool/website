@@ -22,10 +22,10 @@ jobs:
       - run:
           name: Ruby dependencies
           command: bundle install && bundle clean
-
+          
       - run:
           name: Node dependencies
-          command: npm install firebase-tools
+          command: npm install
 
       - save_cache:
           paths:
