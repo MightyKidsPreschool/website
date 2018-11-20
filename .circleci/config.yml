@@ -7,19 +7,21 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v1-{{ arch }}-dependencies-{{ checksum "Gemfile.lock" }}
+            - v1-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
             # fallback to using the latest cache if no exact match is found
-            - v1-{{ arch }}-dependencies-
+            - v1-dependencies-{{ arch }}-{{ .Branch }}-
+            - v1-dependencies-{{ arch }}-
       - restore_cache:
           keys:
-            - v1-{{ arch }}-node-modules-{{ checksum "package-lock.json"}}
-            - v1-{{ arch }}-node-modules-
+            - v1-node-modules-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json"}}
+            - v1-node-modules-{{ arch }}-{{ .Branch }}-
+            - v1-node-modules-{{ arch }}
       - run:
           name: Update Bundler
           command: gem install bundler
       - run:
           name: Ruby dependencies
-          command: bundle install
+          command: bundle install && bundle clean
 
       - run:
           name: Node dependencies
@@ -27,13 +29,13 @@ jobs:
 
       - save_cache:
           paths:
-            - /usr/local/bundle
-          key: v1-{{ arch }}-dependencies-{{ checksum "Gemfile.lock" }}
+            - ~/.bundle
+          key: v1-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
 
       - save_cache:
           paths:
             - /usr/local/lib/node_modules
-          key: v1-{{ arch }}-dependencies-{{ checksum "package-lock.json" }}
+          key: v1-node-modules-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json"}}
 
 
   build-job:
@@ -41,18 +43,20 @@ jobs:
       - image: circleci/ruby:2.4.1-node
     steps:
       - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-{{ arch }}-{{ .Branch }}-
+            - v1-dependencies-{{ arch }}-
+      - restore_cache:
+          keys:
+            - v1-node-modules-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json"}}
+            - v1-node-modules-{{ arch }}-{{ .Branch }}-
+            - v1-node-modules-{{ arch }}
       - run:
-          name: Bundler Permissions Fix
-          command: sudo chown -R circleci /usr/local/bundle
-      - restore_cache:
-          keys:
-          - v1-{{ arch }}-dependencies-{{ checksum "Gemfile.lock" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-{{ arch }}-dependencies-
-      - restore_cache:
-          keys:
-            - v1-{{ arch }}-node-modules-{{ checksum "package-lock.json"}}
-            - v1-{{ arch }}-node-modules-
+          name: Update Bundler
+          command: gem install bundler
       - run:
           name: Build
           command: bundle exec jekyll build --verbose
