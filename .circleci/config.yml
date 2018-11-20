@@ -15,12 +15,15 @@ jobs:
             - v1-node-modules-{{ checksum "package-lock.json"}}
             - v1-node-modules-
       - run:
+          name: Update Bundler
+          command: gem install Bundler
+      - run:
           name: Ruby dependencies
           command: bundle install
 
       - run:
           name: Node dependencies
-          command: npm install -g firebase-tools --unsafe-perm
+          command: npm install firebase-tools
 
       - save_cache:
           paths:
