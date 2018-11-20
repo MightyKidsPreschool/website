@@ -22,7 +22,7 @@ jobs:
       - run:
           name: Ruby dependencies
           command: bundle install && bundle clean
-          
+
       - run:
           name: Node dependencies
           command: npm install
@@ -34,7 +34,7 @@ jobs:
 
       - save_cache:
           paths:
-            - /usr/local/lib/node_modules
+            - ./node_modules/
           key: v1-node-modules-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json"}}
 
 
