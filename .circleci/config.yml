@@ -16,7 +16,7 @@ jobs:
             - v1-node-modules-
       - run:
           name: Update Bundler
-          command: gem install Bundler
+          command: gem install bundler
       - run:
           name: Ruby dependencies
           command: bundle install
