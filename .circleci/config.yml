@@ -79,7 +79,7 @@ workflows:
       -deploy:
         jobs:
           - dependencies-job
-          - build-job
+          - build-job:
               requires:
                 - dependencies-job
           - deploy-job:
