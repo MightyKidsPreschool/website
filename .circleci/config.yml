@@ -21,7 +21,7 @@ jobs:
           command: gem install bundler
       - run:
           name: Ruby dependencies
-          command: bundle install --path ~./bundle && bundle clean
+          command: bundle install --path ~/.bundle && bundle clean
 
       - run:
           name: Node dependencies
