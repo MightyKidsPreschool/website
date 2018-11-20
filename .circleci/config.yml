@@ -7,10 +7,10 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v1-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+            - v1-1-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
             # fallback to using the latest cache if no exact match is found
-            - v1-dependencies-{{ arch }}-{{ .Branch }}-
-            - v1-dependencies-{{ arch }}-
+            - v1-1-dependencies-{{ arch }}-{{ .Branch }}-
+            - v1-1-dependencies-{{ arch }}-
       - restore_cache:
           keys:
             - v1-1-node-modules-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json"}}
@@ -30,7 +30,7 @@ jobs:
       - save_cache:
           paths:
             - ~/.bundle
-          key: v1-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+          key: v1-1-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
 
       - save_cache:
           paths:
