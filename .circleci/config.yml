@@ -5,6 +5,9 @@ jobs:
       - image: circleci/ruby:2.4.1-node
     steps:
       - checkout
+      - run:
+          name: Bundler Permissions Fix
+          command: sudo chown -R circleci /usr/local/bundle
       - restore_cache:
           keys:
             - v1-{{ arch }}-dependencies-{{ checksum "Gemfile.lock" }}
@@ -41,6 +44,9 @@ jobs:
       - image: circleci/ruby:2.4.1-node
     steps:
       - checkout
+      - run:
+          name: Bundler Permissions Fix
+          command: sudo chown -R circleci /usr/local/bundle
       - restore_cache:
           keys:
           - v1-{{ arch }}-dependencies-{{ checksum "Gemfile.lock" }}
