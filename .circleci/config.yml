@@ -7,13 +7,13 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v2-dependencies-{{ checksum "Gemfile.lock" }}
+            - v1-{{ arch }}-dependencies-{{ checksum "Gemfile.lock" }}
             # fallback to using the latest cache if no exact match is found
-            - v2-dependencies-
+            - v1-{{ arch }}-dependencies-
       - restore_cache:
           keys:
-            - v2-node-modules-{{ checksum "package-lock.json"}}
-            - v2-node-modules-
+            - v1-{{ arch }}-node-modules-{{ checksum "package-lock.json"}}
+            - v1-{{ arch }}-node-modules-
       - run:
           name: Update Bundler
           command: gem install bundler
@@ -28,12 +28,12 @@ jobs:
       - save_cache:
           paths:
             - /usr/local/bundle
-          key: v2-dependencies-{{ checksum "Gemfile.lock" }}
+          key: v1-{{ arch }}-dependencies-{{ checksum "Gemfile.lock" }}
 
       - save_cache:
           paths:
             - /usr/local/lib/node_modules
-          key: v2-dependencies-{{ checksum "package-lock.json" }}
+          key: v1-{{ arch }}-dependencies-{{ checksum "package-lock.json" }}
 
 
   build-job:
@@ -43,13 +43,13 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-          - v2-dependencies-{{ checksum "Gemfile.lock" }}
+          - v1-{{ arch }}-dependencies-{{ checksum "Gemfile.lock" }}
           # fallback to using the latest cache if no exact match is found
-          - v2-dependencies-
+          - v1-{{ arch }}-dependencies-
       - restore_cache:
           keys:
-            - v2-node-modules-{{ checksum "package-lock.json"}}
-            - v2-node-modules-
+            - v1-{{ arch }}-node-modules-{{ checksum "package-lock.json"}}
+            - v1-{{ arch }}-node-modules-
       - run:
           name: Build
           command: bundle exec jekyll build --verbose
@@ -68,8 +68,8 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v2-node-modules-{{ checksum "package-lock.json"}}
-            - v2-node-modules-
+            - v1-{{ arch }}-node-modules-{{ checksum "package-lock.json"}}
+            - v1-{{ arch }}-node-modules-
       - restore_cache:
           keys:
             - public-cache-
