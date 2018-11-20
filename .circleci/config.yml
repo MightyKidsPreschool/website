@@ -7,13 +7,13 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "Gemfile.lock" }}
+            - v2-dependencies-{{ checksum "Gemfile.lock" }}
             # fallback to using the latest cache if no exact match is found
-            - v1-dependencies-
+            - v2-dependencies-
       - restore_cache:
           keys:
-            - v1-node-modules-{{ checksum "package-lock.json"}}
-            - v1-node-modules-
+            - v2-node-modules-{{ checksum "package-lock.json"}}
+            - v2-node-modules-
       - run:
           name: Update Bundler
           command: gem install bundler
@@ -43,13 +43,13 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "Gemfile.lock" }}
+          - v2-dependencies-{{ checksum "Gemfile.lock" }}
           # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
+          - v2-dependencies-
       - restore_cache:
           keys:
-            - v1-node-modules-{{ checksum "package-lock.json"}}
-            - v1-node-modules-
+            - v2-node-modules-{{ checksum "package-lock.json"}}
+            - v2-node-modules-
       - run:
           name: Build
           command: bundle exec jekyll build --verbose
@@ -68,8 +68,8 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v1-node-modules-{{ checksum "package-lock.json"}}
-            - v1-node-modules-
+            - v2-node-modules-{{ checksum "package-lock.json"}}
+            - v2-node-modules-
       - restore_cache:
           keys:
             - public-cache-
