@@ -13,8 +13,9 @@ registerLink: /drop-in
 ---
 
 These are enrichment STEM classes offered to Students 2-5 years old with or without a parent in attendance and can be added to your child’s preschool day for a later pick-up time if desired or taken stand alone. Each session is 6 weeks long and costs $96 per session. The drop-in fee is $20 per class and no advance registration is required to drop-in for any one session. Please click on the enroll tab and select the day(s) of the week you wish to enroll your child in. We are now enrolling for our Winter session. 
+In addition to offering STEM Enrichment classes, we also offer drop-in play time perfect for playdates or moms meetups from 12-2 MWF for just $5/hour with an adult present and $12/hour for drop-off play time! No registration required!
 
-Options for Winter session 2019 include: 
+Enrichment Options for Winter session 2019 include: 
 
 Future Engineers: Mondays from 12pm-1pm
 In this series, students will have the opportunity to create projects both guided and 				independently. Students will learn to use many building materials to make structures from 			minuscule to taller than they are! Each week will explore different materials and types of projects. Innovation and 	student suggestions are encouraged! Have your kiddo start thinking of all of the things they’d like to build! 
