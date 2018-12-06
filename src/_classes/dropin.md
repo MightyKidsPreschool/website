@@ -1,7 +1,7 @@
 ---
 layout: class
 name: Drop-In STEM classes
-price: $96/6-week session or $20 drop-in rate
+price: 
 days: M - F
 hours: 12pm-1pm
 color: color-4
