@@ -1,11 +1,11 @@
 ---
 layout: class
-name: 3 day preschool
+name: 3 day preschool/pre-k
 price: $350
 days: Mon, Wed, Fri
 hours: 9.00AM-12.00PM
 color: color-3
-ages: Age 3 to 4 Years
+ages: Age 3 to 5 years
 image: /assets/img/event/IMG_6108.png
 ---
 
