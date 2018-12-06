@@ -6,7 +6,7 @@ days: M - F
 hours: TBD
 color: color-4
 ages: Age 2 to 5 Years
-enroll: false
+enroll: true
 image: /assets/img/course-single/stem.jpg
 registerLink: /drop-in
 ---
