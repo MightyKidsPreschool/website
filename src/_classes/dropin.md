@@ -12,7 +12,7 @@ image: /assets/img/course-single/stem.jpg
 registerLink: /drop-in
 ---
 
-These are enrichment STEM classes offered to Students 2-5 years old with or without a parent in attendance and can be added to your child’s preschool day for a later pick-up time if desired or taken stand alone. Each session is 6 weeks long and costs $96 per session. The drop-in fee is $20 per class and no advance registration is required to drop-in for one session. Our winter session runs from January 2nd-February 13, 2019. Our Mid-winter session runs from February 25th-April 2nd, 2019. Our Spring session runs from April 3rd-May 14th 2019. Our late Spring session runs from May 15th-June 26th, 2019. Please click on the enroll tab and select the day(s) of the week you wish to enroll your child in. We are now enrolling for our Winter session. 
+These are enrichment STEM classes offered to Students 2-5 years old with or without a parent in attendance and can be added to your child’s preschool day for a later pick-up time if desired or taken stand alone. Each session is 6 weeks long and costs $96 per session. The drop-in fee is $20 per class and no advance registration is required to drop-in for any one session. Please click on the enroll tab and select the day(s) of the week you wish to enroll your child in. We are now enrolling for our Winter session. 
 
 Options for Winter session 2019 include: 
 
