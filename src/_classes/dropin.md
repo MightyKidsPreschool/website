@@ -3,7 +3,7 @@ layout: class
 name: Drop-In STEM classes
 price: $96/6-week session or $20 drop-in rate
 days: M - F
-hours: TBD
+hours: 12pm-1pm
 color: color-4
 ages: Age 2 to 5 Years
 enroll: true
