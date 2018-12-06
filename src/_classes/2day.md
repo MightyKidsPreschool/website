@@ -2,6 +2,7 @@
 layout: class
 name: 2 day preschool
 price: $250
+priceDescription: $250 per month
 days: Tue & Thurs
 hours: 9.00AM-12.00PM
 color: color-2
