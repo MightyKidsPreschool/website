@@ -2,6 +2,7 @@
 layout: class
 name: 3 day preschool/pre-k
 price: $350
+priceDescription: $350 per month
 days: Mon, Wed, Fri
 hours: 9.00AM-12.00PM
 color: color-3
