@@ -2,6 +2,7 @@
 layout: class
 name: 5 day pre-K
 price: $500
+priceDescription: $500 per month
 days: M - F
 hours: 9.00AM-12.00PM
 color: color-1
