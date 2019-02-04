@@ -2,7 +2,7 @@
 layout: class
 name: STEM Enrichment
 price: $12
-priceDescription: $96/6-week session or $20 drop-in rate
+priceDescription: $12
 days: M - F
 hours: 12pm-1pm
 color: color-4
