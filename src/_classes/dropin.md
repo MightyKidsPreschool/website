@@ -1,6 +1,6 @@
 ---
 layout: class
-name: STEM Enrichment
+name: STEM Enrichment and Camps
 price: $12
 priceDescription: $12
 days: M - F
