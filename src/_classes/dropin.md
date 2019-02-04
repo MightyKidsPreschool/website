@@ -7,7 +7,6 @@ days: M - F
 hours: 12pm-1pm
 color: color-4
 ages: Age 2 to 5 Years
-enroll: true
 image: /assets/img/course-single/stem.jpg
 registerLink: /drop-in and camps
 ---
@@ -16,4 +15,4 @@ STEM Enrichment Play time: Each day from 12-1pm children are invited to explore 
 
 Non-enrolled children may also come for this hour of STEM engagement as a stand alone drop-in class any day!
 
-Check out our fun STEM summer camps for ages 3+ in partnership with Junior Coders Camp: https://juniorcoderscamp.com/
+Check out our fun STEM SUMMER CAMPS for ages 3+ in partnership with Junior Coders Camp: https://juniorcoderscamp.com/
