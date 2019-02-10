@@ -42,11 +42,11 @@ collections:
 phone: (425) 387-9343
 hours: 9am - 1:30pm
 email: info@mightykidspreschool.com
-address: 1912 201st Pl SE #205
+address: "1912 201st Pl SE #205"
 city: Bothell
 state: WA
 zip: 98012
-
+addressnote: "We are located inside of the Mighty Coders facility"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
