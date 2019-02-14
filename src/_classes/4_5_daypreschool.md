@@ -6,7 +6,7 @@ priceDescription: $500 per month
 days: M-F
 hours: 9.00AM-12.00PM
 color: color-2
-ages: 3 Years of Age
+ages: Age 3
 image: /assets/img/home/home_gallery/gallery_lg_8.jpg
 ---
 
