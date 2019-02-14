@@ -27,8 +27,11 @@ layout: default
                 <div class="col-md-3 col-sm-6 col-xs-12 block">
                   <div class="thumbnail thumbnailContent">
                     <a href="{{ class.url }}"><img src="{{ class.image }}" alt="image" style="min-height:213px" class="img-responsive"></a>
-                    <div class="sticker bg-{{ class.color }}">{{ class.price }}</div>
-                    <div class="caption border-{{ class.color }}">
+                    
+			  {% if class.price %}
+			  <div class="sticker bg-{{ class.color }}">{{ class.price }}</div>
+                    {% endif %}
+			  <div class="caption border-{{ class.color }}">
                       <h3><a href="{{ class.url }}" class="{{ class.color }}">{{ class.name }}</a></h3>
                       <ul class="list-unstyled">
                         <li><i class="fa fa-calendar-o" aria-hidden="true"></i>{{ class.ages }}</li>
