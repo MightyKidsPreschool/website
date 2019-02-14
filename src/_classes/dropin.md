@@ -3,6 +3,7 @@ layout: class
 name: STEM Enrichment and Camps
 days: M - F
 hours: 12pm-1pm
+priceDescription: varies
 color: color-4
 ages: Age 2 to 5 Years
 enroll: false
