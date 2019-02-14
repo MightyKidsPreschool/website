@@ -1,9 +1,14 @@
 <section class="mainContent full-width clearfix coursesSection">
         <div class="container">
-          <div class="row">
+		
+		{% for class in site.classes %}
 
-            {% for class in site.classes %}
-            <div class="col-md-3 col-sm-6 col-xs-12 block">
+  {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
+
+  {% if modulo == '1' %}
+    <div class="row">
+  {% endif %}
+     <div class="col-md-3 col-sm-6 col-xs-12 block">
               <div class="thumbnail thumbnailContent">
                 <a href="{{ class.url }}"><img src="{{ class.image }}" alt="image" style="min-height:213px" class="img-responsive"></a>
                  {% if class.price %}
@@ -26,7 +31,10 @@
                 </div>
               </div>
             </div>
-            {% endfor %}
-          </div>
+  {% if modulo == '0' or forloop.last %}
+    </div>
+  {% endif %}
+
+{% endfor %}  
         </div>
       </section>
