@@ -1,6 +1,6 @@
 ---
 layout: class
-name: STEM Enrichment and Camps
+name: Enrichment & Camps
 days: M - F
 hours: vary
 priceDescription: varies
