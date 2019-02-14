@@ -1,7 +1,7 @@
 ---
 layout: class
 name: STEM Enrichment and Camps
-price: $12
+price: $12+
 priceDescription: $12+
 days: M - F
 hours: 12pm-1pm
