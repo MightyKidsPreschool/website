@@ -27,7 +27,9 @@ layout: default
                 <div class="col-md-9 col-sm-8 col-xs-12 block pull-right">
                   <div class="thumbnail thumbnailContent alt">
                     <img src="{{ page.image }}" alt="image" class="img-responsive">
+			  {% if page.price %}
                     <div class="sticker bg-{{ page.color }}">{{ page.price }}</div>
+			  {% endif %}
                     <div class="caption border-{{ page.color }}">
                       <h3 class="{{ page.color }}">{{ page.name }}</h3>
                      {{ content }}
