@@ -10,9 +10,15 @@ enroll: false
 image: /assets/img/course-single/stem.jpg
 ---
 
-STEM Enrichment Play time: Each day from 12-1pm children are invited to explore STEM through play with our unique STEM-based engineering toys,  interactive technology, age appropriate robotics and more. This hour can be added to any enrolled students school day for more STEM interaction. No set curriculum is implemented during this time, this is your child's time to create, design and build whatever their imagination allows using our many materials. 
+STEM Enrichment Play time: Each day from 12-1pm children are invited to explore STEM through play with our unique STEM-based engineering toys, interactive technology, age appropriate robotics and more. This hour can be added to any enrolled students school day for more STEM interaction. No set curriculum is implemented during this time, this is your child's time to create, design and build whatever their imagination allows using our many materials. 
 
-Non-enrolled children may also come for this hour of STEM engagement as a stand alone drop-in class any day!
+Summer Camps: Join Mighty Kids STEM School this Summer for a fun half-day or full day STEM camp for kiddos ages 3-7 years old. We will be exploring the world of Science, Technology, Engineering and Mathematics. Using unique games, activities, robotics, drone activities and toys, we make building those pathways in the brain for critical thinking, creativity, innovation and teamwork fun! 
+
+We use scratch Jr to help them "code" their first games, VR headsets to bring natural science concepts to life, unique Engineering toys to foster their inner architect and activities that teach kids what it means to work as a team. We also add in art and music as future innovators will need to be creative to come up with the concepts that we currently can't even imagine. 
+
+Each camp runs for one week with the choice of Full day from 9am-4pm or Half-day from 9am-12pm or 1pm-4pm. Extended Care available.
+
+If you have older kids, be sure to check out Junior Coders Camps for ages 7+ as they will be running at our Lake Stevens Venue 
 
 View and register for Summer Camps here:
 
