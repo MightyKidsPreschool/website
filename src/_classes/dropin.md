@@ -14,4 +14,6 @@ STEM Enrichment Play time: Each day from 12-1pm children are invited to explore 
 
 Non-enrolled children may also come for this hour of STEM engagement as a stand alone drop-in class any day!
 
-Check out our fun STEM SUMMER CAMPS for ages 3+ in partnership with Junior Coders Camp at https://juniorcoderscamp.com/
+View and register for Summer Camps here:
+
+<a class="ah-widget" href="https://www.activityhero.com/biz/94419-mighty-kids-bothell-wa?aht_cam=schedule-widget&aht_src=62927" data-id="2956">Register on ActivityHero</a> <script src="//www.activityhero.com/widget.js?v=1555527932"></script> 
