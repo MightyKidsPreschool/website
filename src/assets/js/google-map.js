@@ -1,5 +1,5 @@
 function initialize() {
-  var myLatLng = {lat: 47.815201, lng: -122.207123};
+  var myLatLng = {lat: 47.833716, lng: -122.208981};
 
   //Custom Style
   var styles = [
@@ -35,7 +35,7 @@ function initialize() {
   var mapOptions = {
     zoom: 14,
     scrollwheel: false,
-    center: new google.maps.LatLng(47.815201, -122.207123),
+    center: new google.maps.LatLng(47.833716,-122.208981),
     styles: styles,
 
   };
