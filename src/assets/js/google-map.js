@@ -36,7 +36,7 @@ function initialize() {
     zoom: 14,
     scrollwheel: false,
     center: new google.maps.LatLng(47.833716,-122.208981),
-    styles: styles,
+    //styles: styles,
 
   };
   var map = new google.maps.Map(document.getElementById('map'), mapOptions);
