@@ -9,7 +9,7 @@ function initialize() {
         { color: '#eeddee' }
       ]
     },{
-      featureType: 'natural',
+      featureType: 'landscape.natural',
       stylers: [
         { hue: '#ff0000' }
       ]
@@ -20,7 +20,7 @@ function initialize() {
         { saturation: -70 }
       ]
     },{
-      featureType: 'building',
+      featureType: 'poi.business',
       elementType: 'labels',
       stylers: [
         { hue: '#000066' }
