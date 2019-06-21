@@ -1,6 +1,6 @@
 ---
 layout: class
-name: Before/After School information & Camp Registration
+name: Before/After care & Camp Registration
 days: M - F
 hours: vary
 priceDescription: varies
