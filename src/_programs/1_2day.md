@@ -1,5 +1,5 @@
 ---
-layout: class
+layout: program
 name: 2 day preschool
 price: $250
 priceDescription: $250 per month

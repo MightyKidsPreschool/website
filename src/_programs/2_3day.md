@@ -1,5 +1,5 @@
 ---
-layout: class
+layout: program
 name: 3 day preschool
 price: $350
 priceDescription: $350 per month

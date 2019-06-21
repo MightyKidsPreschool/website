@@ -1,5 +1,5 @@
 ---
-layout: class
+layout: program
 name: 5 day preschool
 price: $500
 priceDescription: $500 per month

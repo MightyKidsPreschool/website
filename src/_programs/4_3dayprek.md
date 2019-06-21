@@ -1,5 +1,5 @@
 ---
-layout: class
+layout: program
 name: 3 day pre-k
 price: $425
 priceDescription: $425 per month

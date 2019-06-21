@@ -1,5 +1,5 @@
 ---
-layout: class
+layout: program
 name: 5 day pre-k
 price: $600
 priceDescription: $600 per month
