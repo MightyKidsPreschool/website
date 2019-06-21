@@ -1,4 +1,4 @@
 ---
-layout: classes
+layout: programs
 title: Our Programs
 ---
