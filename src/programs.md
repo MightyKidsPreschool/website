@@ -1,4 +1,4 @@
 ---
 layout: classes
-title: Our Classes
+title: Our Programs
 ---
