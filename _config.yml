@@ -31,10 +31,10 @@ theme: minima
 plugins:
   - jekyll-feed
 collections:
-  classes:
+  programs:
     output: true
     permalink: /programs/:path/
-    layout: class
+    layout: program
   gallery:
     output: true
     permalink: /gallery/:path/
