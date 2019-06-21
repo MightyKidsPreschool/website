@@ -33,7 +33,7 @@ plugins:
 collections:
   classes:
     output: true
-    permalink: /classes/:path/
+    permalink: /programs/:path/
     layout: class
   gallery:
     output: true
