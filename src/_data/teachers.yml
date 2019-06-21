@@ -1,8 +1,13 @@
 - name: Sonia Graves
-  title: Director & Lead Teacher
+  title: Director
   image: sonia.jpg
   blurb: Born and raised here in the PNW, she has experience working in Special Education classrooms, traditional preschool classrooms, kids Technology camp and college training in Early Childhood Education. She is a mother of three and enjoys helping kids reach their full potential.
-- name: Irina Shiyan
+- name: Sharmila Sivakumar
+  title: Lead Teacher
+  blurb: Sharmila brings her years of experience working in childcare centers with every age group and type of program.
+- name: Vanessa Rebo
   title: Teacher
-  blurb: Irina is a mother of three. She and her husband love spending time learning from their children. She moved to Washington from Moscow one and a half years ago where she was director of a children’s creative center 
-  image: irina.jpg
+  blurb: Vanessa has a degree in Early Childhood Education and experience working in preschools.
+- name: Megan Otto
+  title: Assistant
+  blurb: Megan brings years of experience working with young children and has experience working with kiddos with special needs.
