@@ -1,7 +1,7 @@
 <section class="mainContent full-width clearfix coursesSection">
         <div class="container">
 		
-		{% for class in site.classes %}
+		{% for program in site.programs %}
 
   {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
 
@@ -10,15 +10,15 @@
   {% endif %}
      <div class="col-md-4 col-sm-6 col-xs-12 block">
               <div class="thumbnail thumbnailContent">
-                <a href="{{ class.url }}"><img src="{{ class.image }}" alt="image" style="min-height:213px" class="img-responsive"></a>
+                <a href="{{ program.url }}"><img src="{{ program.image }}" alt="image" style="min-height:213px" class="img-responsive"></a>
                  {% if class.price %}
-			  <div class="sticker bg-{{ class.color }}">{{ class.price }}</div>
+			  <div class="sticker bg-{{ program.color }}">{{ program.price }}</div>
                     {% endif %}
-                <div class="caption border-{{ class.color }}">
-                  <h3><a href="{{ class.url }}" class="{{ class.color }}">{{ class.name }}</a></h3>
+                <div class="caption border-{{ program.color }}">
+                  <h3><a href="{{ program.url }}" class="{{ program.color }}">{{ program.name }}</a></h3>
                   <ul class="list-unstyled">
-                    <li><i class="fa fa-calendar-o" aria-hidden="true"></i>{{ class.ages }}</li>
-                    <li><i class="fa fa-clock-o" aria-hidden="true"></i>{{ class.hours }}</li>
+                    <li><i class="fa fa-calendar-o" aria-hidden="true"></i>{{ program.ages }}</li>
+                    <li><i class="fa fa-clock-o" aria-hidden="true"></i>{{ program.hours }}</li>
                   </ul>
                   <p>{{ class.description }} </p>
                   <ul class="list-inline btn-yellow">
@@ -26,7 +26,7 @@
                         <li><a href="/contact.html" class="btn btn-primary ">Inquire</a></li>
                         {% else %}
                       <li><a href="/register.html" class="btn btn-primary "><i class="fa fa-shopping-basket " aria-hidden="true"></i>Enroll</a></li>
-                      {% endif %}                    <li><a href="{{ class.url }}" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> More</a></li>
+                      {% endif %}                    <li><a href="{{ program.url }}" class="btn btn-link"><i class="fa fa-angle-double-right" aria-hidden="true"></i> More</a></li>
                   </ul>
                 </div>
               </div>
