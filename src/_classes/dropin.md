@@ -1,6 +1,6 @@
 ---
 layout: class
-name: Enrichment & Camp Registration
+name: Before/After School information & Camp Registration
 days: M - F
 hours: vary
 priceDescription: varies
