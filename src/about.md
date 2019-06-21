@@ -3,7 +3,7 @@ layout: about
 title: About Us
 section1:
     title: Welcome to Mighty Kids STEM Learning Center
-    description: "We are a Preschool and Elementary-aged before & after school program in Bothell, WA offering traditional Kindergarten readiness academics, play based learning and a leg up in STEM education. STEM stands for Science, Technology, Engineering and Mathematics. STEM learning in children breeds curiousity, prepares kids for today's technology and fosters creativity, but they'll just know they're having fun!
+    description: "We are a half-day Preschool and Elementary-aged before & after school program in Bothell, WA offering traditional Kindergarten readiness academics, play based learning and a leg up in STEM education. STEM stands for Science, Technology, Engineering and Mathematics. STEM learning in children breeds curiousity, prepares kids for today's technology and fosters creativity, but they'll just know they're having fun!
 <br>
 We provide a fun, nurturing environment for our students with low staff to student ratios (max 1:7) and positive discipline practices. We have seen great strides made by students as they navigate their very first experience in a group of their peers to being confident and comfortable navigating new situations." 
 section2:
