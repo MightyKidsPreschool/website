@@ -10,11 +10,16 @@ enroll: false
 image: /assets/img/course-single/stem.jpg
 ---
 
-Before and after school care: Beginning fall 2019, Kindergarten-5th graders can spend their time before and/or after school getting homework help, playing minecraft, doing engineering projects, playing games, trivia, fooseball and more. 
-Before School: 7-9am $225/month After School: 3-6pm $275/month. $7.50 hourly rate. Transportation to & from school included. 
-Contact us for more information on this new program. 
+Before and after school care: 
 
-Summer Camps: Join us this Summer for a fun half-day or full day STEM camp for kiddos ages 3-7 years old. We will be exploring the world of Science, Technology, Engineering and Mathematics. Using unique games, activities, robotics, VR and engineering materials we make building those pathways in the brain for critical thinking, creativity, innovation and teamwork fun! 
+Beginning fall 2019, Kindergarten-5th graders can spend their time before and/or after school getting homework help, playing minecraft, doing engineering projects, playing games, trivia, fooseball and more. 
+Before School: 7-9am $225/month After School: 3-6pm $275/month. $7.50 hourly rate. $50 yearly registration fee. Transportation to & from school included. 
+Contact us for more information on this new program. Now enrolling.  
+
+
+Summer Camps: 
+
+Join us this Summer for a fun half-day or full day STEM camp for kiddos ages 3-7 years old. We will be exploring the world of Science, Technology, Engineering and Mathematics. Using unique games, activities, robotics, VR and engineering materials we make building those pathways in the brain for critical thinking, creativity, innovation and teamwork fun! 
 
 We use scratch Jr to help them code their first games, VR headsets to bring natural science concepts to life, unique Engineering toys to foster their inner architect and activities that teach kids what it means to work as a team. We also add in art and music as future innovators will need to be creative to come up with the concepts that we currently can't even imagine. 
 
