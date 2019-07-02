@@ -7,7 +7,7 @@ priceDescription: varies
 color: color-4
 ages: 3+
 enroll: false
-image: /assets/img/course-single/stem.jpg
+image: /assets/img/elementarykidsthumbsup.jpg
 ---
 
 Before and after school care: Beginning fall 2019, Kindergarten-5th graders can spend their time before and/or after school getting homework help, playing minecraft, doing engineering projects, playing games, trivia, fooseball and more. 
