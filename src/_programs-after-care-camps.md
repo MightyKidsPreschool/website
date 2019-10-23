@@ -10,7 +10,7 @@ enroll: false
 image: /assets/img/course-single/stem.jpg
 ---
 
-Before and after school care: 
+After school care: 
 
 Beginning fall 2019, Kindergarten-5th graders can spend their time before and/or after school getting homework help, playing minecraft, doing engineering projects, playing games, trivia, fooseball and more. 
 After School: 3-6pm $275/month. $50 yearly registration fee. Transportation to & from school included. This is a program for school-days and half-days only, we are a half day program and cannot keep kids all day on non-school days. Alternate care will be needed on those days. The are several drop in full day care facilities in the area. 
