@@ -1,6 +1,6 @@
 ---
 layout: program
-name: "Before/After care & Camps"
+name: "After care & Camps"
 days: M - F
 hours: vary
 priceDescription: varies
@@ -13,8 +13,8 @@ image: /assets/img/course-single/stem.jpg
 Before and after school care: 
 
 Beginning fall 2019, Kindergarten-5th graders can spend their time before and/or after school getting homework help, playing minecraft, doing engineering projects, playing games, trivia, fooseball and more. 
-Before School: 7-9am $225/month After School: 3-6pm $275/month. $7.50 hourly rate. $50 yearly registration fee. Transportation to & from school included. 
-Contact us for more information on this new program. Now enrolling.  
+After School: 3-6pm $275/month. $50 yearly registration fee. Transportation to & from school included. This is a program for school-days and half-days only, we are a half day program and cannot keep kids all day on non-school days. Alternate care will be needed on those days. The are several drop in full day care facilities in the area. 
+Now enrolling.  
 
 
 Summer Camps: 
