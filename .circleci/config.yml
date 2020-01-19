@@ -35,7 +35,7 @@ jobs:
       - save_cache:
           paths:
             - ./node_modules/
-          key: v1-1-node-modules-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json"}}
+          key: v1-2-node-modules-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json"}}
       - run:
           name: Build
           command: bundle exec jekyll build --verbose
