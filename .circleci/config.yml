@@ -48,7 +48,7 @@ jobs:
             - ./public/
   deploy-job:
     docker:
-      - image: circleci/ruby:2.4.1-node
+      - image: circleci/ruby:2.7.0-node
     steps:
       - checkout
       - restore_cache:
