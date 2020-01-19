@@ -14,9 +14,14 @@
                   </div>
                 </div>
               </div>
+              {% for teacher in site.data.teachers %}
+              {% assign mod = forloop.index | modulo: 2 %}
+              {% if mod == 0 %}
               <div class="row">
-                  {% for teacher in site.data.teachers %}
                 <div class="col-sm-6 col-xs-12">
+              {% else %}
+              <div class="col-sm-6 col-xs-12">
+              {% endif %}
                   <div class="media teamStyle">
                     <a class="media-left" href="#">
                       <img class="img-rounded img-responsive" src="/assets/img/headshots/{{teacher.image}}" alt="Image">
@@ -27,8 +32,12 @@
                       <p>{{teacher.blurb}}</p>
                     </div>
                   </div>
+              {% if mod == 0 %}
                 </div>
-                {% endfor %}
               </div>
+              {% else %}
+              </div>
+              {% endif %}
+              {% endfor %}
             </div>
           </section>

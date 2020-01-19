@@ -41,14 +41,15 @@ layout: default
                         {% if section.description.first %}
                           {% for item in section.description %}
                         <h3>{{ item.subtitle }}</h3>
-                        <p>{{ itme.subdescription }}</p>
+                        <p>{{ item.description }}</p>
+			                    {% endfor %}
                         {% else %}
                          <p>{{ section.description }}</p>
                         {% endif %}
                     </div>
                 </div>
                </div>
-               {% endfor %}
+                {% endfor %}
                 <div class="row" style="padding-top: 24px">
                                 <div class="text-center col-sm-12 col-xs-12">
                                     <a href="docs" class="btn btn-primary"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Program Documents</a></div>
