@@ -2,15 +2,15 @@ version: 2
 jobs:
   build-job:
     docker:
-      - image: circleci/ruby:2.4.1-node
+      - image: circleci/ruby:2.7.0-node
     steps:
       - checkout
       - restore_cache:
           keys:
-            - v1-3-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+            - v1-4-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
             # fallback to using the latest cache if no exact match is found
-            - v1-3-dependencies-{{ arch }}-{{ .Branch }}-
-            - v1-3-dependencies-{{ arch }}-
+            - v1-4-dependencies-{{ arch }}-{{ .Branch }}-
+            - v1-4-dependencies-{{ arch }}-
       - restore_cache:
           keys:
             - v1-1-node-modules-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json"}}
@@ -30,7 +30,7 @@ jobs:
       - save_cache:
           paths:
             - vendor/bundle
-          key: v1-3-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
+          key: v1-4-dependencies-{{ arch }}-{{ .Branch }}-{{ checksum "Gemfile.lock" }}
 
       - save_cache:
           paths:
