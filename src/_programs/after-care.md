@@ -5,7 +5,7 @@ days: M - F
 hours: vary
 priceDescription: $395
 color: color-4
-ages: 3+
+ages: 5+
 enroll: false
 image: /assets/img/course-single/stem.jpg
 ---
