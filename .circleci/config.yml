@@ -13,9 +13,9 @@ jobs:
             - v1-4-dependencies-{{ arch }}-
       - restore_cache:
           keys:
-            - v1-2-node-modules-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json"}}
-            - v1-2-node-modules-{{ arch }}-{{ .Branch }}-
-            - v1-2-node-modules-{{ arch }}
+            - v1-3-node-modules-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json"}}
+            - v1-3-node-modules-{{ arch }}-{{ .Branch }}-
+            - v1-3-node-modules-{{ arch }}
       - run:
           name: Update Bundler
           command: gem install bundler
@@ -35,7 +35,7 @@ jobs:
       - save_cache:
           paths:
             - ./node_modules/
-          key: v1-2-node-modules-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json"}}
+          key: v1-3-node-modules-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json"}}
       - run:
           name: Build
           command: bundle exec jekyll build --verbose
@@ -53,9 +53,9 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v1-2-node-modules-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json"}}
-            - v1-2-node-modules-{{ arch }}-{{ .Branch }}-
-            - v1-2-node-modules-{{ arch }}
+            - v1-3-node-modules-{{ arch }}-{{ .Branch }}-{{ checksum "package-lock.json"}}
+            - v1-3-node-modules-{{ arch }}-{{ .Branch }}-
+            - v1-3-node-modules-{{ arch }}
       - restore_cache:
           keys:
             - public-cache-
