@@ -1,6 +1,6 @@
 ---
 layout: program
-name:3 day preschool
+name: 3 day preschool
 price: $350
 priceDescription: $350 per month
 days: Mon, Tues & Thurs
