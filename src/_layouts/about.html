@@ -28,27 +28,27 @@ layout: default
                 </div>
                 <div class="col-sm-6 col-sm-pull-6 col-xs-12">
                   <div class="schoolInfo">
-                    <h2>{{ page.section1.title }}</h2>
-                    <p>{{ page.section1.description }}</p>
+                    <h2>{{ page.welcome.title }}</h2>
+                    <p>{{ page.welcome.description }}</p>
                   </div>
                 </div>
               </div>
+                {% for section in page.sections %}
               <div class="row">
                 <div class="col-sm-12 col-xs-12">
                     <div class="schoolInfo">
-                        <h2>{{ page.section2.title }}</h2>
-                        <p>{{ page.section2.description }}</p>
+                        <h2>{{ section.title }}</h2>
+                        {% if section.description.first %}
+                          {% for item in section.description %}
+                        <h3>{{ item.subtitle }}</h3>
+                        <p>{{ itme.subdescription }}</p>
+                        {% else %}
+                         <p>{{ section.description }}</p>
+                        {% endif %}
                     </div>
                 </div>
                </div>
-               <div class="row">
-                    <div class="col-sm-12 col-xs-12">
-                        <div class="schoolInfo">
-                        <h2>{{ page.section3.title }}</h2>
-                        <p>{{ page.section3.description }}</p>
-                        </div>
-                    </div>
-                </div>
+               {% endfor %}
                 <div class="row" style="padding-top: 24px">
                                 <div class="text-center col-sm-12 col-xs-12">
                                     <a href="docs" class="btn btn-primary"><i class="fa fa-file-pdf-o" aria-hidden="true"></i>Program Documents</a></div>
