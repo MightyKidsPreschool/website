@@ -91,7 +91,12 @@ layout: default
                               </div>
                               <div class="media-body iconContent">
                                 <h4 class="media-heading color-6">Course Price</h4>
-                                <p>{{ page.priceDescription || page.price  }} </p>
+                                <p>{%if page.priceDescription %}
+					{{ page.priceDescription }}
+				   {% elsif page.price %}
+					{{ page.price  }}
+				   {% endif %}
+				</p>
                               </div>
                             </li>
                           </ul>
