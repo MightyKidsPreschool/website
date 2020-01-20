@@ -3,7 +3,7 @@ layout: about
 title: About Us
 welcome:
     title: Welcome to Mighty Kids STEM Learning Center
-    description: "Registratio for the 2020-2021 school year begins February 1st. The $100 registration fee is due at registration with the first month's tuition due July 1st 2020. Tours will be held Tuesdays and Wednesdays at 10am and Wednesdays at 5:30pm, no appoinment necessary. 
+    description: "**Registration for the 2020-2021 school year begins February 1st. The $100 registration fee is due at registration with the first month's tuition due July 1st 2020. Tours will be held Tuesdays and Wednesdays at 10am and Wednesdays at 5:30pm, no appoinment necessary. 
     <br>
 We are a half-day Preschool and Elementary-aged before & after school program in Bothell, WA offering traditional Kindergarten readiness academics, play based learning and a leg up in STEM education. STEM stands for Science, Technology, Engineering and Mathematics. STEM learning in children breeds curiousity, prepares kids for today's technology and fosters creativity, but they'll just know they're having fun! We utilize hands-on activities, experiments and team building exercises. Our proprietary STEM curriculum is 90% screen free.
 <br>
