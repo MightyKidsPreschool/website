@@ -5,7 +5,7 @@ welcome:
     title: Welcome to Mighty Kids STEM Learning Center
     description: "**Registration for the 2020-2021 school year begins February 1st. The $100 registration fee is due at registration with the first month's tuition due July 1st 2020. Tours will be held Tuesdays and Wednesdays at 10am and Wednesdays at 5:30pm, no appoinment necessary. 
     <br>
-We are a half-day Preschool and Elementary-aged before & after school program in Bothell, WA offering traditional Kindergarten readiness academics, play based learning and a leg up in STEM education. STEM stands for Science, Technology, Engineering and Mathematics. STEM learning in children breeds curiousity & prepares kids for today's technology and fosters creativity, but they'll just know they're having fun! We utilize hands-on activities, experiments and team building exercises. Our proprietary STEM curriculum is 90% screen free.
+We are a half-day Preschool and Elementary-aged before & after school program in Bothell, WA offering traditional Kindergarten readiness academics, play based learning and a leg up in STEM education. STEM stands for Science, Technology, Engineering and Mathematics. STEM learning in children breeds curiousity & prepares kids for today's technology and fosters creativity, but they'll just know they're having fun! We utilize hands-on activities, experiments and team building exercises. Our proprietary STEM curriculum is 90% screen free. Our holiday and weather closure schedule follows the Everett School District Calendar.
 <br>
 We provide a fun, nurturing environment for our students with low staff to student ratios (max 1:7) and positive discipline practices. We have seen great strides made by students as they navigate their very first experience in a group of their peers to being confident and comfortable excelling in new situations."
 sections:
@@ -46,5 +46,5 @@ We use counting songs and rhymes to help with rote counting skills and spend tim
   - title: Social Emotional Development
     description: "Our staff is trained in social emotional development and Developmentally Appropriate Practices (DAP) with many of them having degrees in Early Childhood Education
 We use books, pictures, figurines and one on one interactions to help the kids understand complex emotions and virtues
-We are always working with our kids during their interactions with each other and adults to develop appropriate coping mechanisms and interactions."
+We are always working with our kids during their interactions with each other and adults to develop appropriate coping mechanisms and interactions. We stress Delopmentally Appropriate Practices (DAP) in all aspects of our program. For guidance in behavior, we use redirection and offer choices instead of harsh discipline and find that our students respond well to these methods."
 ---
