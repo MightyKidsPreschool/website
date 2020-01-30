@@ -3,9 +3,9 @@ layout: program
 name: "Summer Camps"
 days: M - F
 hours: 9am-4pm
-priceDescription: $250
+priceDescription: $250+
 color: color-4
-ages: 3+
+ages: 4+
 enroll: false
 image: /assets/img/gallery/chess.jpg
 ---
