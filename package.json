@@ -16,7 +16,7 @@
     "gulp-sass": "^3.2.1",
     "gulp-watch": "^5.0.1",
     "jekyll": "^3.0.0-beta1",
-    "lodash": ">=4.17.12",
+    "lodash": ">=4.17.19",
     "lodash.merge": ">=4.6.2",
     "lodash.template": ">=4.5.0",
     "set-value": ">=2.0.1",
